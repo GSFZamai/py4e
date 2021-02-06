@@ -6,7 +6,6 @@ try:
     hfile = open(fname)
 except:
     print('File', fname, 'not found')
-    print('quit()')
     quit()
 
 #wanted line counter starting at 0
