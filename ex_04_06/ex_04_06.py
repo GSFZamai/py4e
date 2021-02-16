@@ -20,9 +20,5 @@ def computepay(h,r):
         pay = f_hours * f_rate
     
     return pay
-
-# Invoke function, calculate and attribute return to variable
-p = computepay(hrs,rate)
-
 # Print result
-print('Pay', p)
+print('Pay', computepay(hrs,rate))
